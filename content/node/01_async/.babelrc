@@ -1,0 +1,15 @@
+/**
+ * 可以在options 配资
+ */
+{ // 插件
+    // "babel-polyfill": 高级语法
+    "plugins": [
+        "babel-plugin-transform-async-to-generator",
+
+    ],
+    // 预设
+    // "@babel/preset-env": "^7.0.0-beta.44", // es6=> es5
+    "presets": [
+
+    ]
+}

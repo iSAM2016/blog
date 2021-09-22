@@ -1,0 +1,18 @@
+{
+  "name": "01_async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "transform-runtime": "^0.0.0"
+  }
+}
