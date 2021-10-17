@@ -1,5 +1,5 @@
 ---
-title: 32位Intel微处理器编程架构
+title: 真象还原-32位Intel微处理器编程架构
 date: 2021-10-14 09:24:10
 tags:
 categories:
