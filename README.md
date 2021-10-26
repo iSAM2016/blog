@@ -57,7 +57,7 @@
 1. [计算机组成原理1](https://isam2016.cn/2021/10/11/composition/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/)
 2. 语言学习
    1. [c语言学习](https://www.ruanyifeng.com/blog/2021/09/c-language-tutorial.html)
-      1. 如果是新手请直接看视频学习C语言。B站资源很多
+      1. 如果是新手请直接看视频学习C语言。[程序设计入门——C语言 浙大翁凯](https://www.icourse163.org/course/ZJU-199001)
    2. [汇编学习](https://isam2016.cn/2021/10/09/assembly/%E6%B1%87%E7%BC%96%E5%AD%A6%E4%B9%A0/)
 3. 计算机组成原理2
 4. 操作系统
