@@ -1,5 +1,5 @@
 ---
-title: 结构
+title: c和指针-struct结构
 date: 2021-10-30 14:57:08
 tags:
 - c语言
