@@ -3,6 +3,8 @@ title: c和指针-struct结构
 date: 2021-10-30 14:57:08
 tags:
 - c语言
+categories:
+- c语言
 ---
 # struct
 C 语言没有其他语言的对象（object）和类（class）的概念，struct 结构很大程度上提供了对象和类的功能。
