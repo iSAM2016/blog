@@ -20,3 +20,4 @@ categories:
 1.  [c和指针-指针](https://isam2016.cn/2021/10/26/c/c%E5%92%8C%E6%8C%87%E9%92%88-%E6%8C%87%E9%92%88/)
 2.  [c和指针-struct结构](https://isam2016.cn/2021/10/30/c/c%E5%92%8C%E6%8C%87%E9%92%88-struct%E7%BB%93%E6%9E%84/)
 3.  [c和指针-内存管理](https://isam2016.cn/2021/10/30/c/c%E5%92%8C%E6%8C%87%E9%92%88-%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/)
+4.  [c和指针-typeof](https://isam2016.cn/2021/11/06/c/c和指针-typeof/)

@@ -54,7 +54,7 @@
    3. [计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th?from=search&seid=18122847666166164994&spm_id_from=333.337.0.0)(自行观看前10章节)
    4. [怎么组装一台电脑](https://www.bilibili.com/video/BV1jE411e7hw)
    5. [鸟哥的Linux私房菜 基础学习篇](https://item.jd.com/12443890.html)
-      1. [mac下安装 virtBox虚拟机](https://isam2016.cn/2021/10/11/x86/%E5%AE%9E%E9%AA%8C%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/)
+      1. [mac下安装 VMware虚拟机](https://isam2016.cn/2021/10/11/x86/%E5%AE%9E%E9%AA%8C%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/)
 1. [计算机组成原理1](https://isam2016.cn/2021/10/11/composition/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/)
 2. 语言学习
    1. [c语言学习](https://isam2016.cn/2021/10/31/c/c%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/)
