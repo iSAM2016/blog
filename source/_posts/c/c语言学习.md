@@ -477,3 +477,14 @@ int main(int argc, char const *argv[])
 3:听歌 
 4:音乐 
 ```
+
+## 组织工程文件
+我们把项目拆分成合理的目录，使用gcc 来编译文件。
+* core 核心文件夹
+* lib 第三方库文件夹
+* stand.h 环境变量文件
+
+1. 编译core `gcc -c -o core/todolist.o core/todolist.c`
+2. 编译lib `gcc -c -o lib/utils.o lib/utils.c `
+3. `ld -o todolist.bin core/todolist.o ib/utils.o`
+
