@@ -281,7 +281,7 @@ typedef struct todonode
 // 每个数组里存储的是当天事件集合的第一个事件地址
 
 // 数据类型不能是 int
-LinkList *daylist[] = {};
+static LinkList *daylist[] = {};
 
 /**
  * 初始化一个链表 节点
@@ -321,7 +321,7 @@ void append(LinkList *list, char *thing)
  * LinkList *list 链表地址
  * order 序号
  */
-void *change(LinkList *list, int order, char *thing)
+void change(LinkList *list, int order, char *thing)
 {
     LinkList *t = list;
     int i = 1;
@@ -341,7 +341,7 @@ void *change(LinkList *list, int order, char *thing)
  * LinkList *list 链表地址
  * order 序号,
  */
-void *delete (LinkList *list, int order)
+void deletenode (LinkList *list, int order)
 {
     LinkList *t = list, *selectNode;
     int i = 1;
@@ -483,9 +483,19 @@ int main(int argc, char const *argv[])
 * core 核心文件夹
 * lib 第三方库文件夹
 * stand.h 环境变量文件
-
+```
+.
+|____core
+| |____todolist.c
+|____.bashrc
+|____lib
+| |____utils.c
+|____stand.h
+```
+在ubuntu32 下进行编译的：
 1. 编译`gcc core/todolist.c lib/utils.c -o todolist`
-2. 执行`gcc -c -o lib/utils.o lib/utils.c`
+
+
 ```
 root@ubuntu:/home/c/project# ./todolist 
 op------- 新增和添加--------
@@ -516,5 +526,4 @@ op---------删除------
 1:-音乐- 
 3:听歌 
 4:音乐 
-
 ```
