@@ -38,7 +38,7 @@ void append(LinkList *list, char *thing)
  * LinkList *list 链表地址
  * order 序号
  */
-void *change(LinkList *list, int order, char *thing)
+void change(LinkList *list, int order, char *thing)
 {
     LinkList *t = list;
     int i = 1;
@@ -58,7 +58,7 @@ void *change(LinkList *list, int order, char *thing)
  * LinkList *list 链表地址
  * order 序号,
  */
-void *delete (LinkList *list, int order)
+void deletenode(LinkList *list, int order)
 {
     LinkList *t = list, *selectNode;
     int i = 1;
@@ -120,7 +120,7 @@ void controle(int day, int type, char *thing, int order)
         change(currentDay, order, thing);
         break;
     case 2:
-        delete (currentDay, order);
+        deletenode(currentDay, order);
         break;
     case 3:
         printfList();

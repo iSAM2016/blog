@@ -114,7 +114,7 @@ int main(int argc, char const *argv[])
 这样我们1，2，3 问题就解决了， 实现了数据的添加
 
 继续优化链表
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -253,7 +253,7 @@ op---------------
 ```
 我们给每个动作进行标号，进行捕捉，分类管理
 
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -484,7 +484,37 @@ int main(int argc, char const *argv[])
 * lib 第三方库文件夹
 * stand.h 环境变量文件
 
-1. 编译core `gcc -c -o core/todolist.o core/todolist.c`
-2. 编译lib `gcc -c -o lib/utils.o lib/utils.c `
-3. `ld -o todolist.bin core/todolist.o ib/utils.o`
+1. 编译`gcc core/todolist.c lib/utils.c -o todolist`
+2. 执行`gcc -c -o lib/utils.o lib/utils.c`
+```
+root@ubuntu:/home/c/project# ./todolist 
+op------- 新增和添加--------
+序号1 ：事件：音乐 
+序号2 ：事件：听歌 
+序号3 ：事件：跳舞 
+序号4 ：事件：写代码 
+op---------------
+序号1 ：事件：写代码 
+序号2 ：事件：跳舞 
+序号3 ：事件：听歌 
+序号4 ：事件：音乐 
+op---------修改------
+序号1 ：事件：-音乐- 
+序号2 ：事件：跳舞 
+序号3 ：事件：听歌 
+序号4 ：事件：音乐 
+op---------删除------
+序号1 ：事件：-音乐- 
+序号3 ：事件：听歌 
+序号4 ：事件：音乐 
+ ---- 1 号事件汇总 ---- 
+1:音乐 
+2:听歌 
+3:跳舞 
+4:写代码 
+ ---- 19 号事件汇总 ---- 
+1:-音乐- 
+3:听歌 
+4:音乐 
 
+```
