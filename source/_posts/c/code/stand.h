@@ -19,10 +19,13 @@ typedef struct todonode
 } LinkList;
 // 给TODO 起别名
 // typedef struct todonode *NODE;
-
 // 数据类型不能是 int
-LinkList *daylist[] = {};
-
+static LinkList *daylist[] = {};
+/**
+ * 初始化一个链表 节点
+ * order 序号
+ * thing 内容
+ */
 LinkList *create(char *thing);
 /**
  * 向链表添加节点 我们默认添加到尾部
@@ -35,14 +38,14 @@ void append(LinkList *list, char *thing);
  * LinkList *list 链表地址
  * order 序号
  */
-void *change(LinkList *list, int order, char *thing);
+void change(LinkList *list, int order, char *thing);
 
 /***
  *  删除节点p,把当前p的父连接next连接到 p的next. 并释放内存 当然不能删除第一项
  * LinkList *list 链表地址
  * order 序号,
  */
-void *delete (LinkList *list, int order);
+void deletenode(LinkList *list, int order);
 /**
  * 输出todolist
  */
