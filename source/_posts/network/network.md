@@ -19,7 +19,7 @@ ISP: 电信运营商
 2. IP 地址
 3. 数据包 数据帧
 
-    ![](https://isam2016hexo.oss-cn-hangzhou.aliyuncs.com/img/databao.png)
+![](https://isam2016hexo.oss-cn-hangzhou.aliyuncs.com/img/databao.png)
 
 -   IP 地址 决定了数据包到哪里
 -   mac 地址决定了数据传输的路径（跳到那一站）
@@ -327,7 +327,7 @@ netstat -nb 查看建立会话的进程
 
 ![](https://isam2016hexo.oss-cn-hangzhou.aliyuncs.com/img/QQ20181117-194952@2x.png)
 
-## 5.2.0 TCP 和 UDP 的区别
+<!-- TODO: ## 5.2.0 TCP 和 UDP 的区别 -->
 
 ## 5.3 TCP 协议的特点
 
@@ -447,10 +447,4 @@ RST: 表示连接重置。
 
 -   第四次挥手： 主动关闭对方收到 FIN 后，发送一个 ACK 给被动关闭方，确认序号接收到序号+1，
 
-# DNS
-
-## 细节
-
-计算机上有 NDS 客户端，而相当 DNS 客户端的部分称为 DNS 解析器，通过 DNS 查询 IP 地址的操作称为域名解析。
-
-利用 socket 库想 DNS 发布查询
+<!-- # TODO: DNS -->
