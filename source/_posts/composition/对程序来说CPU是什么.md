@@ -1,5 +1,5 @@
 ---
-title: 程序是怎样跑起来的
+title: 对程序来说CPU是什么
 date: 2021-09-07 17:10:14
 categories: 
 - 计组
