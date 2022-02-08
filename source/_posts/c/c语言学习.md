@@ -28,9 +28,9 @@ categories:
 
 <!-- 4.  [c和指针-typeof](https://isam2016.cn/2021/11/06/c/c和指针-typeof/) -->
 
-# 熟练c语言-TODOList项目
+# 熟练c语言-todoList项目
 
-TODOList项目,为了熟悉c语言，为了更好的编写操作系统。减少陌生感。
+todoList项目,为了熟悉c语言，为了更好的编写操作系统。减少陌生感。
 
 需求：
 1. 实现一个tidolist,主要实现 增， 删， 查， 列表
@@ -73,7 +73,7 @@ struct todonode
     char *thing;           //动词名称
     struct todonode *next; // 下一个节点的地址
 };
-// 给TODONODE 起别名
+// 给todoNODE 起别名
 typedef struct todonode *NODE;
 
 int main(int argc, char const *argv[])
@@ -128,7 +128,7 @@ typedef struct todonode
     char *thing;           //动词名称
     struct todonode *next; // 下一个节点的地址
 } LinkList;
-// 给TODO 起别名
+// 给todo 起别名
 // typedef struct todonode *NODE;
 
 /**
@@ -275,7 +275,7 @@ typedef struct todonode
     char *thing;           //动词名称
     struct todonode *next; // 下一个节点的地址
 } LinkList;
-// 给TODO 起别名
+// 给todo 起别名
 // typedef struct todonode *NODE;
 // 每个数组里存储的是当天事件集合的第一个事件地址
 

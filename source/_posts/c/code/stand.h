@@ -17,7 +17,7 @@ typedef struct todonode
     char *thing;           //动词名称
     struct todonode *next; // 下一个节点的地址
 } LinkList;
-// 给TODO 起别名
+// 给todo 起别名
 // typedef struct todonode *NODE;
 // 数据类型不能是 int
 static LinkList *daylist[] = {};
