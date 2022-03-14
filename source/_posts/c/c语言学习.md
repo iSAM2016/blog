@@ -17,13 +17,13 @@ categories:
 # 文章链接
 
 1. [C 语言教程和复习](https://wangdoc.com/clang/)
-2. 如果是新手请直接看视频学习C语言。 [程序设计入门——C语言 浙大翁凯](https://www.icourse163.org/course/ZJU-199001)
+2. 如果是新手请直接看视频学习C语言, 然后再看1 [程序设计入门——C语言 浙大翁凯](https://www.icourse163.org/course/ZJU-199001)
 3. [c和指针-指针](https://isam2016.cn/2021/10/26/c/c%E5%92%8C%E6%8C%87%E9%92%88-%E6%8C%87%E9%92%88/)
 4.  [c和指针-struct结构](https://isam2016.cn/2021/10/30/c/c%E5%92%8C%E6%8C%87%E9%92%88-struct%E7%BB%93%E6%9E%84/)
 5.  [c和指针-内存管理](https://isam2016.cn/2021/10/30/c/c%E5%92%8C%E6%8C%87%E9%92%88-%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86/)
 
 # c 语言实战 
-> 建议写 大量的demo 来熟悉c 语言。 可以网上搜寻 c 语言编程 100 例
+> 建议写 大量的demo 来熟悉c 语言。 可以网上搜寻 [c 语言编程 100 例](https://www.runoob.com/cprogramming/c-100-examples.html)
 > 为了适应以后编写操作系统的需要，我写了一个小项目
 
 <!-- 4.  [c和指针-typeof](https://isam2016.cn/2021/11/06/c/c和指针-typeof/) -->
