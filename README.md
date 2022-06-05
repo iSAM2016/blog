@@ -66,8 +66,8 @@
 3. 操作系统
    1. [操作系统学习](https://isam2016.cn/2021/10/12/x86/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/)
 4. [计算机组成原理2](https://isam2016.cn/2021/10/11/composition/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/)
-5. [计算机网络](https://isam2016.cn/2022/02/01/network/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/)
-6. 编译原理 
+5. [计算机网络学习](https://isam2016.cn/2022/02/01/network/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/)
+6. [计算机组成原理3]
 7. 数据结构与算法
 8. 英语！英语!
 
